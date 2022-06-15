@@ -1,0 +1,89 @@
+{
+  "name": "MVP-dashboard",
+  "version": "1.1.0",
+  "description": "TechPro Front-End Application by Technowell",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TRCSolutions/CFF-Dashboard.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "admin",
+    "admin-react",
+    "dashboard",
+    "dashboard-react",
+    "admin-dashboard",
+    "admin-dashboard-react",
+    "TechPro",
+    "AR/VR"
+  ],
+  "author": "Technowell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TRCSolutions/CFF-Dashboard/issues"
+  },
+  "homepage": "http://cffpoc.s3-website-us-east-1.amazonaws.com",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "build:clean": "rm -rf node_modules/ && rm -rf package-lock.json",
+    "compile-sass": "node-sass src/assets/scss/techpro-dashboard-react.scss src/assets/css/techpro-dashboard-react.css",
+    "minify-sass": "node-sass src/assets/scss/techpro-dashboard-react.scss src/assets/css/techpro-dashboard-react.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/techpro-dashboard-react.scss src/assets/css/techpro-dashboard-react.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@arcgis/core": "^4.21.2",
+    "@fortawesome/fontawesome-free": "5.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "axios": "^0.21.4",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^2.9.3",
+    "classnames": "2.2.6",
+    "datatables": "^1.10.18",
+    "datatables.net": "^1.11.5",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.1",
+    "nouislider": "14.1.1",
+    "ol": "^6.14.1",
+    "ol-layerswitcher": "^3.8.3",
+    "ol-popup": "^4.0.0",
+    "react": "16.12.0",
+    "react-bootstrap": "^1.6.4",
+    "react-chartjs-2": "2.9.0",
+    "react-copy-to-clipboard": "5.0.2",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.12.0",
+    "react-draggable": "^4.4.5",
+    "react-dropzone": "^11.4.2",
+    "react-iframe": "^1.8.0",
+    "react-query": "^3.27.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "^4.0.3",
+    "react-select": "^5.1.0",
+    "reactstrap": "8.4.1",
+    "recharts": "^2.1.8"
+  },
+  "devDependencies": {
+    "eslint-plugin-flowtype": "3.13.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "typescript": "3.7.5"
+  }
+}

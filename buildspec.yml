@@ -1,0 +1,28 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+   
+    commands:
+        # install npm
+        #- npm cache clear --force
+        #- npm install
+       
+  build:
+    commands:
+        # run build script
+        - npm run-script build:clean
+        - npm install
+        - npm run-script build
+        #- mkdir build-output
+        #- cp -R <path>/public/ build-output
+     
+artifacts:
+  # include all files required to run application
+  # notably excluded is node_modules, as this will cause overwrite error on deploy
+  files:
+    - './**/*'
+  base-directory: build
+  #name: sitename

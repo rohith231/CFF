@@ -1,0 +1,64 @@
+// Core
+
+@import "techpro-dashboard/custom/functions";
+@import "techpro-dashboard/custom/variables";
+@import "techpro-dashboard/custom/mixins";
+
+// bootstrap (4.3.1) components
+
+@import "techpro-dashboard/bootstrap/root";
+@import "techpro-dashboard/bootstrap/reboot";
+@import "techpro-dashboard/bootstrap/type";
+@import "techpro-dashboard/bootstrap/images";
+@import "techpro-dashboard/bootstrap/code";
+@import "techpro-dashboard/bootstrap/grid";
+@import "techpro-dashboard/bootstrap/tables";
+@import "techpro-dashboard/bootstrap/forms";
+@import "techpro-dashboard/bootstrap/buttons";
+@import "techpro-dashboard/bootstrap/transitions";
+@import "techpro-dashboard/bootstrap/dropdown";
+@import "techpro-dashboard/bootstrap/button-group";
+@import "techpro-dashboard/bootstrap/input-group";
+@import "techpro-dashboard/bootstrap/custom-forms";
+@import "techpro-dashboard/bootstrap/nav";
+@import "techpro-dashboard/bootstrap/navbar";
+@import "techpro-dashboard/bootstrap/card";
+@import "techpro-dashboard/bootstrap/breadcrumb";
+@import "techpro-dashboard/bootstrap/pagination";
+@import "techpro-dashboard/bootstrap/badge";
+@import "techpro-dashboard/bootstrap/jumbotron";
+@import "techpro-dashboard/bootstrap/alert";
+@import "techpro-dashboard/bootstrap/progress";
+@import "techpro-dashboard/bootstrap/media";
+@import "techpro-dashboard/bootstrap/list-group";
+@import "techpro-dashboard/bootstrap/close";
+@import "techpro-dashboard/bootstrap/modal";
+@import "techpro-dashboard/bootstrap/tooltip";
+@import "techpro-dashboard/bootstrap/popover";
+@import "techpro-dashboard/bootstrap/carousel";
+@import "techpro-dashboard/bootstrap/utilities";
+@import "techpro-dashboard/bootstrap/print";
+
+// Argon utilities and components
+
+@import "techpro-dashboard/custom/reboot";
+@import "techpro-dashboard/custom/utilities";
+@import "techpro-dashboard/custom/components";
+
+// Vendor (Plugins)
+
+@import "techpro-dashboard/custom/vendors";
+
+// Docs components
+
+@import "techpro-dashboard/docs/variables";
+@import "techpro-dashboard/docs/nav";
+@import "techpro-dashboard/docs/clipboard-js";
+@import "techpro-dashboard/docs/component-examples";
+@import "techpro-dashboard/docs/prism";
+@import "techpro-dashboard/docs/content";
+@import "techpro-dashboard/docs/sidebar";
+@import "techpro-dashboard/docs/footer";
+
+// React Differences
+@import "react/react-differences";

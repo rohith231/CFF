@@ -1,0 +1,46 @@
+.styled-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.diff-row {
+  font-weight: bold;
+  background-color: #fff786;
+}
+
+#popupBtn {
+  background-color: #ffe0b2;
+  border: 2px solid #ffcc80;
+}
+
+.fas fa-check {
+  background-color: #009879;
+}
+.esri-popup__actions {
+  padding: 15px;
+}
+
+#nullCol {
+  font-weight: bold;
+  background-color: #ff3c0071;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
