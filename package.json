@@ -78,7 +78,7 @@
     "react-scripts": "^4.0.3",
     "react-select": "^5.1.0",
     "reactstrap": "8.4.1",
-    "recharts": "^2.1.8"
+    "recharts": "^2.1.14"
   },
   "devDependencies": {
     "eslint-plugin-flowtype": "3.13.0",
